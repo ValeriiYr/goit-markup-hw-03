@@ -152,12 +152,18 @@ body {
 .section-hero {
   margin-top: 0;
   margin-bottom: 30px;
+
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.no-padding {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .color {
@@ -170,7 +176,6 @@ body {
   border: solid transparent;
   border-radius: 4px;
   padding: 10px 32px;
-  margin-bottom: 200px;
   min-width: 200px;
 
   color: var(--white-text-color);
@@ -226,6 +231,11 @@ body {
 }
 
 /* Чем мы занимаемся */
+
+.no-padd {
+  padding-top: 0;
+}
+
 .work-list {
   display: flex;
 }

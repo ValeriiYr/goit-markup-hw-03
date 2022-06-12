@@ -138,7 +138,8 @@ body {
   text-decoration: none;
 }
 
-.contacts-nav .link:hover {
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -161,9 +162,9 @@ body {
   text-transform: uppercase;
 }
 
-.no-padding {
-  padding-bottom: 0;
-  padding-top: 0;
+.padding-hero {
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .color {
@@ -177,6 +178,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
+  max-height: 50px;
 
   color: var(--white-text-color);
   background-color: var(--accent-color);
@@ -319,13 +321,24 @@ body {
 
 .addres-desc {
   margin-bottom: 9px;
-  margin-top: 20px;
+  margin-top: 0;
+
   color: var(--white-text-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.padding-no {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.logo-footer {
+  color: var(--white-text-color);
 }
 
 .addres-list .link {
@@ -342,14 +355,14 @@ body {
   color: var(--accent-color);
 }
 
-.mail {
+.mail-margin {
   margin-bottom: 9px;
 }
 
 /* Портфолио */
 .flex-cont {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -364,7 +377,7 @@ body {
 
 .flex-elements {
   width: 370px;
-  margin-top: 34px;
+  margin-top: 0;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -436,7 +449,7 @@ img {
 } */
 
 .list .sait {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
   text-align: start;
 
@@ -453,7 +466,7 @@ img {
 
 .list .name {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   text-align: start;
 
   color: var(--secondary-text-color);
